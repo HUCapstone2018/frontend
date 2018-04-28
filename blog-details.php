@@ -23,7 +23,7 @@
 
 <div class="boxed_wrapper">
 
-<?php require_once 'elements/header.php';?> 
+
 
 <div class="inner-banner has-base-color-overlay text-center" style="background: url(images/background/4.jpg);">
     <div class="container">
@@ -104,8 +104,7 @@
 </section>
 
 
-    <?php require_once 'elements/footer.php';?>
-
+    
     <!-- Scroll Top  -->
     <button class="scroll-top tran3s color2_bg"><span class="fa fa-angle-up"></span></button>
     <!-- preloader  -->

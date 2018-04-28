@@ -4338,7 +4338,10 @@ input,textarea {font-family: 'Open Sans', sans-serif;display: block; font-size: 
 }
 
 
+.blog-single-post .post-area.spots-description {
 
+padding-top: 0px;
+}
 
 /*=================== blog-sidebar ===================*/
 
