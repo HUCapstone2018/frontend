@@ -1742,7 +1742,9 @@ input,textarea {font-family: 'Open Sans', sans-serif;display: block; font-size: 
   background: #f7f7f7;
   padding: 14px 0;
   margin-bottom: 5px;
+
 }
+
 
 .default-sidebar .service-catergory li.active {
   background: #8dc63f;
@@ -8425,12 +8427,37 @@ article.slide-item.center {}
   margin-bottom: 30px;
 }
 
+.service-catergory li {
+  float: none;
+}
+
+.service-category li.active{
+  background: white;
+  color: #8dc63f;
+}
+
+.default-sidebar .service-catergory li.active{
+  background: none;
+}
+.default-sidebar .service-catergory li.active a,
+.default-sidebar .service-catergory li.active a:hover
+{
+  color:#8dc63f;
+  border:none;
+}
 
 
+.icon-box .fa {
+  font-size: 40px;
 
 
+}
 
-
+.service .service-item:hover .icon-box .fa {
+  color: white;
+  z-index: 10;
+  position: relative;
+}
 
 
 
